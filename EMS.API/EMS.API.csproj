@@ -22,6 +22,7 @@
 		<ProjectReference Include="..\EMS.Infrastructure\EMS.Infrastructure.csproj" />
 		<ProjectReference Include="..\EMS.Persistence\EMS.Persistence.csproj" />
 		<ProjectReference Include="..\EMS.Identity\EMS.Identity.csproj" />
+		<ProjectReference Include="..\EMS.Common\EMS.Common.csproj" />
 	</ItemGroup>
 	
 

@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.API", "EMS.API\EMS.API.csproj", "{EBDC1551-DD3D-4C0D-BC72-56B040ADA1FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.API", "EMS.API\EMS.API.csproj", "{EBDC1551-DD3D-4C0D-BC72-56B040ADA1FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Application", "EMS.Application\EMS.Application.csproj", "{923A598F-1B53-4F90-8F25-D3D705468B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.Application", "EMS.Application\EMS.Application.csproj", "{923A598F-1B53-4F90-8F25-D3D705468B2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Identity", "EMS.Identity\EMS.Identity.csproj", "{BD796E6B-43A6-432C-B0E6-A43A6FFF04C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.Identity", "EMS.Identity\EMS.Identity.csproj", "{BD796E6B-43A6-432C-B0E6-A43A6FFF04C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Domain", "EMS.Domain\EMS.Domain.csproj", "{C58D93AE-22C6-4427-AB37-B6A70EC084AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.Domain", "EMS.Domain\EMS.Domain.csproj", "{C58D93AE-22C6-4427-AB37-B6A70EC084AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Infrastructure", "EMS.Infrastructure\EMS.Infrastructure.csproj", "{EBE7EC13-C74B-46FC-8E4A-134C8D062BFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.Infrastructure", "EMS.Infrastructure\EMS.Infrastructure.csproj", "{EBE7EC13-C74B-46FC-8E4A-134C8D062BFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Persistence", "EMS.Persistence\EMS.Persistence.csproj", "{625A13A4-3795-4871-8E96-77DA991E134E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.Persistence", "EMS.Persistence\EMS.Persistence.csproj", "{625A13A4-3795-4871-8E96-77DA991E134E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Web", "EMS.Web\EMS.Web.csproj", "{7FFDD546-1828-4828-AD7A-2DC665506643}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.Web", "EMS.Web\EMS.Web.csproj", "{7FFDD546-1828-4828-AD7A-2DC665506643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.Common", "EMS.Common\EMS.Common.csproj", "{B998AC8A-B577-4D6F-B4D5-7A1788D62FC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{7FFDD546-1828-4828-AD7A-2DC665506643}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFDD546-1828-4828-AD7A-2DC665506643}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFDD546-1828-4828-AD7A-2DC665506643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B998AC8A-B577-4D6F-B4D5-7A1788D62FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B998AC8A-B577-4D6F-B4D5-7A1788D62FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B998AC8A-B577-4D6F-B4D5-7A1788D62FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B998AC8A-B577-4D6F-B4D5-7A1788D62FC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
